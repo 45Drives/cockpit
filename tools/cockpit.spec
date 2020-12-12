@@ -91,7 +91,7 @@ Release:        1.%{wip}%{?dist}
 Source0:        cockpit-%{version}.tar.gz
 %else
 Release:        1%{?dist}
-Source0:        https://github.com/cockpit-project/cockpit/releases/download/%{version}/cockpit-%{version}.tar.xz
+Source0:        https://github.com/45drives/cockpit/releases/download/%{version}/cockpit-%{version}.tar.xz
 %endif
 
 BuildRequires: gcc

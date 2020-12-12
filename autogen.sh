@@ -69,6 +69,8 @@ if test -n "${NOCONFIGURE:-}"; then
     exit 0
 fi
 
+tools/make-bots
+
 cd $olddir
 if [ -z "${NOREDIRECTMAKEFILE:-}" ]; then
     rm -f $srcdir/Makefile
