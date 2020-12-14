@@ -15,6 +15,7 @@
 # earliest base that the subpackages work on; the instances of this get computed/updated
 # by tools/gen-spec-dependencies during "make dist", but keep a hardcoded fallback
 %define required_base 122
+%define variant 45d
 
 # we generally want CentOS packages to be like RHEL; special cases need to check %{centos} explicitly
 %if 0%{?centos}
@@ -87,7 +88,7 @@ URL:            https://cockpit-project.org/
 
 Version:        0
 %if %{defined wip}
-Release:        1%{?dist}
+Release:        1.%{variant}%{?dist}
 Source0:        cockpit-%{version}.tar.gz
 %else
 Release:        1%{?dist}
