@@ -1,13 +1,12 @@
 centosbrandingdir = $(datadir)/cockpit/branding/centos
 
 centosbranding_DATA = \
+	src/branding/centos/45-brand-dark.png \
+	src/branding/centos/45-brand-light.png \
 	src/branding/centos/branding.css \
+	src/branding/centos/dark-background.jpg \
+	src/branding/centos/favicon.ico \
+	src/branding/centos/light-background.jpg \
 	$(NULL)
 
 EXTRA_DIST += $(centosbranding_DATA)
-
-# Opportunistically use fedora-logos
-install-data-hook::
-	$(LN_S) -f /usr/share/pixmaps/system-logo-white.png $(DESTDIR)$(centosbrandingdir)/logo.png
-	$(LN_S) -f /usr/share/pixmaps/fedora-logo-sprite.png $(DESTDIR)$(centosbrandingdir)/apple-touch-icon.png
-	$(LN_S) -f /etc/favicon.png $(DESTDIR)$(centosbrandingdir)/favicon.ico
