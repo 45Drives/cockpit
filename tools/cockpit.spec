@@ -87,7 +87,7 @@ URL:            https://cockpit-project.org/
 
 Version:        0
 %if %{defined wip}
-Release:        1.%{wip}%{?dist}
+Release:        1%{?dist}
 Source0:        cockpit-%{version}.tar.gz
 %else
 Release:        1%{?dist}
