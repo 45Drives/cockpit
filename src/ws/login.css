@@ -366,7 +366,7 @@ label {
   height: 100%;
 }
 .login-pf #brand {
-  position: relative;
+  position: absolute;
   top: -70px;
 }
 .login-pf #brand img {
@@ -382,15 +382,15 @@ label {
 }
 .login-pf #badge {
   display: block;
-  margin: 20px auto 70px;
-  position: relative;
+  margin: 0px auto 0px;
+  position: absolute;
   text-align: center;
 }
 @media (min-width: 768px) {
   .login-pf #badge {
     float: right;
-    margin-right: 64px;
-    margin-top: 50px;
+    margin-right: 0px;
+    margin-top: 0px;
   }
 }
 .login-pf .container {
