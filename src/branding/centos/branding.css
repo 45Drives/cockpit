@@ -16,12 +16,13 @@ body.login-pf {
 #brand {
     font-size: 18pt;
     text-transform: uppercase;
+    color: #000000;
 }
 
 #brand:before {
-    content: "45DRIVES STORAGE NODE";
+    content: "We Have A Solution";
 }
 
 #index-brand:before {
-    content: "45DRIVES STORAGE NODE";
+    content: "45DRIVES";
 }
