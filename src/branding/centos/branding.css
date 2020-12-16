@@ -5,8 +5,9 @@ body.login-pf {
 }
 
 #badge {
-    width: 500px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
+    bottom:-35px;right:0px;
     background-image: url("45-brand-white.png");
     background-size: contain;
     background-repeat: no-repeat;
