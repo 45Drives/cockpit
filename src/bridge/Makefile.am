@@ -145,7 +145,6 @@ BRIDGE_CHECKS = \
 	test-websocketstream \
 	test-process \
 	test-bridge \
-	test-router \
 	$(NULL)
 
 mock_bridge_SOURCES = src/bridge/mock-bridge.c
@@ -181,12 +180,6 @@ test_peer_SOURCES = src/bridge/test-peer.c \
 	src/common/mock-transport.c src/common/mock-transport.h
 test_peer_CFLAGS = $(libcockpit_bridge_a_CFLAGS)
 test_peer_LDADD = $(libcockpit_bridge_LIBS)
-
-test_router_SOURCES = src/bridge/test-router.c \
-	src/common/mock-channel.c src/common/mock-channel.h \
-	src/common/mock-transport.c src/common/mock-transport.h
-test_router_CFLAGS = $(libcockpit_bridge_a_CFLAGS)
-test_router_LDADD = $(libcockpit_bridge_LIBS)
 
 
 test_rules_SOURCES = src/bridge/test-rules.c
