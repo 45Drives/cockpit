@@ -8,13 +8,25 @@
 
     "menu": {
         "index": {
-            "label": "Overview",
+            "label": "Server Overview",
             "order": 10,
             "docs": [
                 {
-                    "label": "Configuring system settings",
-                    "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/managing_systems_using_the_rhel_8_web_console/performing-basic-system-administration-tasks-in-the-web-console_system-management-using-the-rhel-8-web-console"
-                }
+                    "label": "Contact 45Drives Support",
+                    "url": "https://www.45drives.com/support/"
+                },
+                {
+                    "label": "Submitting a Support Ticket to 45Drives",
+                    "url": "https://www.45drives.com/support/request/"
+                },
+                {
+                    "label": "Configuring Domain Join",
+                    "url": "http://knowledgebase.45drives.com/kb/kb045274-configuring-domain-join-with-houston-ui/"
+                },
+                {
+                    "label": "Configuring Tuned Performance Profiles",
+                    "url": "http://knowledgebase.45drives.com/kb/kb045274-configuring-tuned-performance-profiles/"
+                }          
             ],
             "keywords": [
                 {
@@ -36,7 +48,7 @@
             "docs": [
                 {
                     "label": "Managing services",
-                    "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/managing_systems_using_the_rhel_8_web_console/managing-services-in-the-web-console_system-management-using-the-rhel-8-web-console"
+                    "url": "http://knowledgebase.45drives.com/kb/kb045276-managing-systemd-services-in-houston-ui/"
                 }
             ],
             "keywords": [
@@ -51,11 +63,11 @@
         },
         "logs": {
             "label": "Logs",
-            "order": 20,
+            "order": 101,
             "docs": [
                 {
                     "label": "Reviewing logs",
-                    "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/managing_systems_using_the_rhel_8_web_console/reviewing-logs_system-management-using-the-rhel-8-web-console"
+                    "url": "http://knowledgebase.45drives.com/kb/kb045277-reviewing-logs-in-houston-ui/"
                 }
             ],
             "keywords": [

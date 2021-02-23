@@ -6,10 +6,28 @@
 
     "tools": {
         "index": {
-            "label": "Diagnostic Reports",
+            "label": "Get Support",
+            "docs": [
+                {
+                    "label": "Contact 45Drives Support",
+                    "url": "https://www.45drives.com/support/"
+                },
+                {
+                    "label": "About 45Drives Support",
+                    "url": "https://www.45drives.com/support/ask-us/"
+                },
+                {
+                    "label": "Submitting a Support Ticket to 45Drives",
+                    "url": "https://www.45drives.com/support/request/"
+                },
+                {
+                    "label": "45Drives Knowledge Base",
+                    "url": "http://knowledgebase.45drives.com/"
+                }
+            ],       
             "keywords": [
                 {
-                    "matches": ["sos"]
+                    "matches": ["sos", "support", "ticket", "help"]
                 }
             ]
         }
