@@ -6,7 +6,7 @@
 
     "menu": {
         "index": {
-            "label": "Accounts",
+            "label": "User Accounts",
             "order": 70,
             "docs": [
                 {
